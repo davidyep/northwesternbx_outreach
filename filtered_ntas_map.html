@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4bff8ed763dcdc3aec77687b314fcc17 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4bff8ed763dcdc3aec77687b314fcc17" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4bff8ed763dcdc3aec77687b314fcc17 = L.map(
+                "map_4bff8ed763dcdc3aec77687b314fcc17",
+                {
+                    center: [40.85, -73.9],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41c71706a00b0544f6b3c2eb412a8a4c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_41c71706a00b0544f6b3c2eb412a8a4c.addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+            var marker_3e65c6617040ce3bfa91db2da5f6a251 = L.marker(
+                [40.86718, -73.9171],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_223cba91d917d7e00bce6e38986ea985 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eee24c787d92a79888118874754f5234 = $(`<div id="html_eee24c787d92a79888118874754f5234" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2024-06-24 00:00:00<br>     <b>Supported Project or Campaign:</b> BQE: BQE Workshop<br>     <b>Deployment Type:</b> Workshop;<br>     <b>NTA2020:</b> MN1203<br>     <b>NTAName:</b> Inwood     </div>`)[0];
+                popup_223cba91d917d7e00bce6e38986ea985.setContent(html_eee24c787d92a79888118874754f5234);
+            
+        
+
+        marker_3e65c6617040ce3bfa91db2da5f6a251.bindPopup(popup_223cba91d917d7e00bce6e38986ea985)
+        ;
+
+        
+    
+    
+            var marker_9f5a46b5291cd317eab511398b2e07b4 = L.marker(
+                [40.89032, -73.9027],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_a111308cf34eaeb96c1a2991c9db79c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_70ba4603aaf5674af0a8d91d5f554f86 = $(`<div id="html_70ba4603aaf5674af0a8d91d5f554f86" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2015-10-26 00:00:00<br>     <b>Supported Project or Campaign:</b> BU: Broadway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX0803<br>     <b>NTAName:</b> Riverdale-Spuyten Duyvil     </div>`)[0];
+                popup_a111308cf34eaeb96c1a2991c9db79c6.setContent(html_70ba4603aaf5674af0a8d91d5f554f86);
+            
+        
+
+        marker_9f5a46b5291cd317eab511398b2e07b4.bindPopup(popup_a111308cf34eaeb96c1a2991c9db79c6)
+        ;
+
+        
+    
+    
+            var marker_4c6b2dfb0fc6ebfce8d20a63c0131f5c = L.marker(
+                [40.89027, -73.8984],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_6d3e212942a6bee04a7a0fab181ea000 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f48483ea0ac855dda2d9c487434f595 = $(`<div id="html_3f48483ea0ac855dda2d9c487434f595" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2015-10-26 00:00:00<br>     <b>Supported Project or Campaign:</b> BU: Broadway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX0802<br>     <b>NTAName:</b> Kingsbridge-Marble Hill     </div>`)[0];
+                popup_6d3e212942a6bee04a7a0fab181ea000.setContent(html_3f48483ea0ac855dda2d9c487434f595);
+            
+        
+
+        marker_4c6b2dfb0fc6ebfce8d20a63c0131f5c.bindPopup(popup_6d3e212942a6bee04a7a0fab181ea000)
+        ;
+
+        
+    
+    
+            var marker_8d04d2f2ac516a2621710d8410b48162 = L.marker(
+                [40.89405, -73.8967],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_061214d63fed2039bb7094ee0c30b69f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1dc0091d3ba726d345935d64642439f3 = $(`<div id="html_1dc0091d3ba726d345935d64642439f3" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2015-10-24 00:00:00<br>     <b>Supported Project or Campaign:</b> BU: Broadway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX0803<br>     <b>NTAName:</b> Riverdale-Spuyten Duyvil     </div>`)[0];
+                popup_061214d63fed2039bb7094ee0c30b69f.setContent(html_1dc0091d3ba726d345935d64642439f3);
+            
+        
+
+        marker_8d04d2f2ac516a2621710d8410b48162.bindPopup(popup_061214d63fed2039bb7094ee0c30b69f)
+        ;
+
+        
+    
+    
+            var marker_0ad6512877ec8c6b5b8ae66932153bfa = L.marker(
+                [40.87791, -73.8667],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_8518f46b65a08954f959791ba8a10938 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_635b33a6fba41ec3ab7a20340ed8d9f7 = $(`<div id="html_635b33a6fba41ec3ab7a20340ed8d9f7" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-10-02 00:00:00<br>     <b>Supported Project or Campaign:</b> BU:  Biketober <br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_8518f46b65a08954f959791ba8a10938.setContent(html_635b33a6fba41ec3ab7a20340ed8d9f7);
+            
+        
+
+        marker_0ad6512877ec8c6b5b8ae66932153bfa.bindPopup(popup_8518f46b65a08954f959791ba8a10938)
+        ;
+
+        
+    
+    
+            var marker_43ae7ce69733e1b4705746d040d121fc = L.marker(
+                [40.8491, -73.9372],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_fa4eaa65bae829153f4d1955d06318e6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2e9448795e0db28726455a22765c34db = $(`<div id="html_2e9448795e0db28726455a22765c34db" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-08-09 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Broadway<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_fa4eaa65bae829153f4d1955d06318e6.setContent(html_2e9448795e0db28726455a22765c34db);
+            
+        
+
+        marker_43ae7ce69733e1b4705746d040d121fc.bindPopup(popup_fa4eaa65bae829153f4d1955d06318e6)
+        ;
+
+        
+    
+    
+            var marker_e8e6359902a3e49d214a9fcf9438a481 = L.marker(
+                [40.87531, -73.8513],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_19dc9fbe49fda7affbb4ef9d5c580590 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_555802b69e4243330acea709196c756a = $(`<div id="html_555802b69e4243330acea709196c756a" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-03-01 00:00:00<br>     <b>Supported Project or Campaign:</b> RIS: Boston Rd Merchant Survey<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_19dc9fbe49fda7affbb4ef9d5c580590.setContent(html_555802b69e4243330acea709196c756a);
+            
+        
+
+        marker_e8e6359902a3e49d214a9fcf9438a481.bindPopup(popup_19dc9fbe49fda7affbb4ef9d5c580590)
+        ;
+
+        
+    
+    
+            var marker_dd6803e9b7db7eef89220f1617e5dd85 = L.marker(
+                [40.84992, -73.9133],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_f87009a8bcfe7b99d14765dd12c43c82 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e3c51334899c07e04f53f9ea878ab5d = $(`<div id="html_7e3c51334899c07e04f53f9ea878ab5d" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-04-12 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Tremont Avenue Better Buses<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX0501<br>     <b>NTAName:</b> University Heights (South)-Morris Heights     </div>`)[0];
+                popup_f87009a8bcfe7b99d14765dd12c43c82.setContent(html_7e3c51334899c07e04f53f9ea878ab5d);
+            
+        
+
+        marker_dd6803e9b7db7eef89220f1617e5dd85.bindPopup(popup_f87009a8bcfe7b99d14765dd12c43c82)
+        ;
+
+        
+    
+    
+            var marker_9dc8591aab5ec7daf0c7271fcaa04010 = L.marker(
+                [40.85365, -73.889],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_b6eee07c97b1a96eb3bb3fe4e06e3a29 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a8f52e79b38c7bee31387013804560cc = $(`<div id="html_a8f52e79b38c7bee31387013804560cc" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-04-06 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Transit - Arthur Avenue Shoppers Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_b6eee07c97b1a96eb3bb3fe4e06e3a29.setContent(html_a8f52e79b38c7bee31387013804560cc);
+            
+        
+
+        marker_9dc8591aab5ec7daf0c7271fcaa04010.bindPopup(popup_b6eee07c97b1a96eb3bb3fe4e06e3a29)
+        ;
+
+        
+    
+    
+            var marker_b816f54a394e459fccffba9436f1eb1b = L.marker(
+                [40.8553, -73.8874],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_2b5ebee9250fe54f03bd3fcb7bc48ab9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f7e43a2815eabca046568b2bd7dd970c = $(`<div id="html_f7e43a2815eabca046568b2bd7dd970c" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-04-07 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Fordham Rd - Arthur Ave<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_2b5ebee9250fe54f03bd3fcb7bc48ab9.setContent(html_f7e43a2815eabca046568b2bd7dd970c);
+            
+        
+
+        marker_b816f54a394e459fccffba9436f1eb1b.bindPopup(popup_2b5ebee9250fe54f03bd3fcb7bc48ab9)
+        ;
+
+        
+    
+    
+            var marker_3d0e034c4028434b0b723ec6119f8e8b = L.marker(
+                [40.85515, -73.8883],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_d75b0aa5c908f7fc95c4080663774a78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_882f929870c64746d3d033b630da835c = $(`<div id="html_882f929870c64746d3d033b630da835c" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-04-07 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Arthur Ave Shopper Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_d75b0aa5c908f7fc95c4080663774a78.setContent(html_882f929870c64746d3d033b630da835c);
+            
+        
+
+        marker_3d0e034c4028434b0b723ec6119f8e8b.bindPopup(popup_d75b0aa5c908f7fc95c4080663774a78)
+        ;
+
+        
+    
+    
+            var marker_fb9a79e04c9e57d5438e049c135d6c4e = L.marker(
+                [40.85515, -73.8883],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_3ce4ef50f267ce983bd3db64690f7aa8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0e6b576e977336872da9fda4fa6bc1ad = $(`<div id="html_0e6b576e977336872da9fda4fa6bc1ad" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-04-06 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Arthur Ave Shopper Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_3ce4ef50f267ce983bd3db64690f7aa8.setContent(html_0e6b576e977336872da9fda4fa6bc1ad);
+            
+        
+
+        marker_fb9a79e04c9e57d5438e049c135d6c4e.bindPopup(popup_3ce4ef50f267ce983bd3db64690f7aa8)
+        ;
+
+        
+    
+    
+            var marker_c863712304b66fc1e7da1ef9838ff47e = L.marker(
+                [40.85434, -73.8883],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_1a158de794ab2891290e15703be33f9f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39f5cd4ed5af095fde618ad91717750d = $(`<div id="html_39f5cd4ed5af095fde618ad91717750d" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-03-24 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Transit: Arthur Avenue<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_1a158de794ab2891290e15703be33f9f.setContent(html_39f5cd4ed5af095fde618ad91717750d);
+            
+        
+
+        marker_c863712304b66fc1e7da1ef9838ff47e.bindPopup(popup_1a158de794ab2891290e15703be33f9f)
+        ;
+
+        
+    
+    
+            var marker_1fbd82ed63fd17ce3bebd1cb96e38e3a = L.marker(
+                [40.85515, -73.8883],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_f3e635488759c05a4f91aec7bb07802e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ded960101246f1a0a23fb900ff882d9 = $(`<div id="html_7ded960101246f1a0a23fb900ff882d9" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-03-24 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Arthur Avenue<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_f3e635488759c05a4f91aec7bb07802e.setContent(html_7ded960101246f1a0a23fb900ff882d9);
+            
+        
+
+        marker_1fbd82ed63fd17ce3bebd1cb96e38e3a.bindPopup(popup_f3e635488759c05a4f91aec7bb07802e)
+        ;
+
+        
+    
+    
+            var marker_1ac94a3cd4cce3af57ad76b5fc97f376 = L.marker(
+                [40.85534, -73.8874],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_1fb78e7e3868b6b9041c4bd84f57dd61 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_83a29c554b95c76e061f81cc61963720 = $(`<div id="html_83a29c554b95c76e061f81cc61963720" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-03-22 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Fordham Rd Busway - Arthur Avenue Outreach<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_1fb78e7e3868b6b9041c4bd84f57dd61.setContent(html_83a29c554b95c76e061f81cc61963720);
+            
+        
+
+        marker_1ac94a3cd4cce3af57ad76b5fc97f376.bindPopup(popup_1fb78e7e3868b6b9041c4bd84f57dd61)
+        ;
+
+        
+    
+    
+            var marker_15c606b7085e9130fa2740c19b3e9bce = L.marker(
+                [40.85523, -73.8877],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_15519f66769e1ed7b9c0d0f2a8c071b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac05470748aa0d2069175111f4d8cb6b = $(`<div id="html_ac05470748aa0d2069175111f4d8cb6b" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-03-22 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Arthur Avenue<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_15519f66769e1ed7b9c0d0f2a8c071b9.setContent(html_ac05470748aa0d2069175111f4d8cb6b);
+            
+        
+
+        marker_15c606b7085e9130fa2740c19b3e9bce.bindPopup(popup_15519f66769e1ed7b9c0d0f2a8c071b9)
+        ;
+
+        
+    
+    
+            var marker_002ebd39a101aa20674970f9d39c2a12 = L.marker(
+                [40.86336, -73.8649],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_4926763d86932d4effb97c8a3d75bd0f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18d3507d6d2cb3ec7d1fe8013bb19cea = $(`<div id="html_18d3507d6d2cb3ec7d1fe8013bb19cea" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-03-02 00:00:00<br>     <b>Supported Project or Campaign:</b> RIS: Boston Rd Merchant Survey <br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX1104<br>     <b>NTAName:</b> Allerton     </div>`)[0];
+                popup_4926763d86932d4effb97c8a3d75bd0f.setContent(html_18d3507d6d2cb3ec7d1fe8013bb19cea);
+            
+        
+
+        marker_002ebd39a101aa20674970f9d39c2a12.bindPopup(popup_4926763d86932d4effb97c8a3d75bd0f)
+        ;
+
+        
+    
+    
+            var marker_4e06ecdefe4518f28a85671a1a88a7cb = L.marker(
+                [40.85805, -73.8672],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_e64f9e2f6406759d29439db8d3ef0042 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5151978d93fc3d20468d53294ea9435e = $(`<div id="html_5151978d93fc3d20468d53294ea9435e" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-02-22 00:00:00<br>     <b>Supported Project or Campaign:</b> RIS: Boston Rd Merchant Survey<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX1104<br>     <b>NTAName:</b> Allerton     </div>`)[0];
+                popup_e64f9e2f6406759d29439db8d3ef0042.setContent(html_5151978d93fc3d20468d53294ea9435e);
+            
+        
+
+        marker_4e06ecdefe4518f28a85671a1a88a7cb.bindPopup(popup_e64f9e2f6406759d29439db8d3ef0042)
+        ;
+
+        
+    
+    
+            var marker_7bb289b5f283da7867a3da0ecc5b9c29 = L.marker(
+                [40.87124, -73.8669],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_e07923c06743052f2b47c770d62f969e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ea98febd709b955ad21d2f2b5bef2152 = $(`<div id="html_ea98febd709b955ad21d2f2b5bef2152" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2023-02-15 00:00:00<br>     <b>Supported Project or Campaign:</b> RIS: White Plains Road<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_e07923c06743052f2b47c770d62f969e.setContent(html_ea98febd709b955ad21d2f2b5bef2152);
+            
+        
+
+        marker_7bb289b5f283da7867a3da0ecc5b9c29.bindPopup(popup_e07923c06743052f2b47c770d62f969e)
+        ;
+
+        
+    
+    
+            var marker_29fd978bd01bc0a3e584d4a9e20bbfed = L.marker(
+                [40.85606, -73.8873],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_3c1d8d14837ab8ee423f14c87e91a4bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e8d89dbe4a9677fe8429509f56f83f21 = $(`<div id="html_e8d89dbe4a9677fe8429509f56f83f21" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-10-26 00:00:00<br>     <b>Supported Project or Campaign:</b> BKS: Citi Bike Expansion - Phase 3<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_3c1d8d14837ab8ee423f14c87e91a4bb.setContent(html_e8d89dbe4a9677fe8429509f56f83f21);
+            
+        
+
+        marker_29fd978bd01bc0a3e584d4a9e20bbfed.bindPopup(popup_3c1d8d14837ab8ee423f14c87e91a4bb)
+        ;
+
+        
+    
+    
+            var marker_ab68be02577b32942259c9d3a5620e17 = L.marker(
+                [40.86144, -73.8906],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_ec9f66d7190f8d61249d3cb3f143bc6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f591d5a161b5c7e7418478cec495e3d0 = $(`<div id="html_f591d5a161b5c7e7418478cec495e3d0" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-10-14 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Transit: Fordham Rd Bus Rider Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_ec9f66d7190f8d61249d3cb3f143bc6a.setContent(html_f591d5a161b5c7e7418478cec495e3d0);
+            
+        
+
+        marker_ab68be02577b32942259c9d3a5620e17.bindPopup(popup_ec9f66d7190f8d61249d3cb3f143bc6a)
+        ;
+
+        
+    
+    
+            var marker_98c12961d138c91e23188306601a33fd = L.marker(
+                [40.86149, -73.8905],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_9983936283c7a0cde1a50a7802dd8338 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d4ef971016a8a57b0d720b85859ee41e = $(`<div id="html_d4ef971016a8a57b0d720b85859ee41e" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-10-12 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Transit: Fordham Bus Rider Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_9983936283c7a0cde1a50a7802dd8338.setContent(html_d4ef971016a8a57b0d720b85859ee41e);
+            
+        
+
+        marker_98c12961d138c91e23188306601a33fd.bindPopup(popup_9983936283c7a0cde1a50a7802dd8338)
+        ;
+
+        
+    
+    
+            var marker_7d9ad35a4bbbdf915d19e772d61340d6 = L.marker(
+                [40.86207, -73.8922],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_9ffd93d582382523cb62f2d3de0537d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_700994a9e532241cd1b4b97674eaaa45 = $(`<div id="html_700994a9e532241cd1b4b97674eaaa45" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-10-07 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Fordham Bus Rider Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0701<br>     <b>NTAName:</b> University Heights (North)-Fordham     </div>`)[0];
+                popup_9ffd93d582382523cb62f2d3de0537d6.setContent(html_700994a9e532241cd1b4b97674eaaa45);
+            
+        
+
+        marker_7d9ad35a4bbbdf915d19e772d61340d6.bindPopup(popup_9ffd93d582382523cb62f2d3de0537d6)
+        ;
+
+        
+    
+    
+            var marker_dffb964eb607acf6723159542ae2a84e = L.marker(
+                [40.86564, -73.8895],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_6d64862ecd29cc6f6efb11d86a173950 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_526e0c6223b1c324c624373a50977ee8 = $(`<div id="html_526e0c6223b1c324c624373a50977ee8" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-10-05 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Fordham Rd Bus Rider Surveys<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0702<br>     <b>NTAName:</b> Bedford Park     </div>`)[0];
+                popup_6d64862ecd29cc6f6efb11d86a173950.setContent(html_526e0c6223b1c324c624373a50977ee8);
+            
+        
+
+        marker_dffb964eb607acf6723159542ae2a84e.bindPopup(popup_6d64862ecd29cc6f6efb11d86a173950)
+        ;
+
+        
+    
+    
+            var marker_e925259357722a9c2505ecfcabb27928 = L.marker(
+                [40.87752, -73.8669],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_c7e1036844664ef02d43c860380f18c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f52c06331fa17b2c4b11c51d04cd1fa8 = $(`<div id="html_f52c06331fa17b2c4b11c51d04cd1fa8" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-05-20 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Gun Hill Rd<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_c7e1036844664ef02d43c860380f18c8.setContent(html_f52c06331fa17b2c4b11c51d04cd1fa8);
+            
+        
+
+        marker_e925259357722a9c2505ecfcabb27928.bindPopup(popup_c7e1036844664ef02d43c860380f18c8)
+        ;
+
+        
+    
+    
+            var marker_4a1257bc078c3d8be15f2a9292a7b548 = L.marker(
+                [40.88109, -73.8785],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_1c1d24217000e34ee91539037d3909cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a86c25a51b611cf05e17d97ab5be34c = $(`<div id="html_3a86c25a51b611cf05e17d97ab5be34c" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-05-18 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Transit: Gun Hill Rd<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0703<br>     <b>NTAName:</b> Norwood     </div>`)[0];
+                popup_1c1d24217000e34ee91539037d3909cc.setContent(html_3a86c25a51b611cf05e17d97ab5be34c);
+            
+        
+
+        marker_4a1257bc078c3d8be15f2a9292a7b548.bindPopup(popup_1c1d24217000e34ee91539037d3909cc)
+        ;
+
+        
+    
+    
+            var marker_618e1ad0c1d21c42978b0e7adc517b67 = L.marker(
+                [40.84808, -73.9314],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_281ff49b4efb3107b94357694d7d1429 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e0d7334764a1f61647372261301fcc42 = $(`<div id="html_e0d7334764a1f61647372261301fcc42" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-04-20 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: 181st Street Busway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_281ff49b4efb3107b94357694d7d1429.setContent(html_e0d7334764a1f61647372261301fcc42);
+            
+        
+
+        marker_618e1ad0c1d21c42978b0e7adc517b67.bindPopup(popup_281ff49b4efb3107b94357694d7d1429)
+        ;
+
+        
+    
+    
+            var marker_5cb48341371dd9e7715e85dce748c58a = L.marker(
+                [40.84938, -73.9334],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_0d17084f98c2eb1e4f0a8e7c22910652 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c3f19cebfaf78bf56d69ea07e4228c93 = $(`<div id="html_c3f19cebfaf78bf56d69ea07e4228c93" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-04-22 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: 181st Street Busway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_0d17084f98c2eb1e4f0a8e7c22910652.setContent(html_c3f19cebfaf78bf56d69ea07e4228c93);
+            
+        
+
+        marker_5cb48341371dd9e7715e85dce748c58a.bindPopup(popup_0d17084f98c2eb1e4f0a8e7c22910652)
+        ;
+
+        
+    
+    
+            var marker_833a91b4d50906df118b9dc30a19b464 = L.marker(
+                [40.84936, -73.9342],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_c12b30107d03cfa18242d1e5e273484f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e40b9010593b6c96ff7325237b822085 = $(`<div id="html_e40b9010593b6c96ff7325237b822085" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-04-22 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: 181st Street Busway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_c12b30107d03cfa18242d1e5e273484f.setContent(html_e40b9010593b6c96ff7325237b822085);
+            
+        
+
+        marker_833a91b4d50906df118b9dc30a19b464.bindPopup(popup_c12b30107d03cfa18242d1e5e273484f)
+        ;
+
+        
+    
+    
+            var marker_3223e61ada2f0e08f339183384454032 = L.marker(
+                [40.84965, -73.9339],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_3a3750652dd1156cfb6276b27bae7dde = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_35a297fa8572d680e4d65ee75fdb1bf9 = $(`<div id="html_35a297fa8572d680e4d65ee75fdb1bf9" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-04-20 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: 181st Street Busway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_3a3750652dd1156cfb6276b27bae7dde.setContent(html_35a297fa8572d680e4d65ee75fdb1bf9);
+            
+        
+
+        marker_3223e61ada2f0e08f339183384454032.bindPopup(popup_3a3750652dd1156cfb6276b27bae7dde)
+        ;
+
+        
+    
+    
+            var marker_d79994d2d728b25ee14606e2d7d7b298 = L.marker(
+                [40.84897, -73.9335],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_228fce42d9ff5bd6a3a1236ee4aa3cd8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e4a9f97b5fbbd86045e1f84e825eea88 = $(`<div id="html_e4a9f97b5fbbd86045e1f84e825eea88" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-04-14 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: 181st Street Busway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_228fce42d9ff5bd6a3a1236ee4aa3cd8.setContent(html_e4a9f97b5fbbd86045e1f84e825eea88);
+            
+        
+
+        marker_d79994d2d728b25ee14606e2d7d7b298.bindPopup(popup_228fce42d9ff5bd6a3a1236ee4aa3cd8)
+        ;
+
+        
+    
+    
+            var marker_8353be5c76d125bce36ceccf0179c58c = L.marker(
+                [40.87752, -73.8669],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_7149ff15fd2bf310ccce7abf057f967c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7465a3c57fc8b49c91d8d15007f157e3 = $(`<div id="html_7465a3c57fc8b49c91d8d15007f157e3" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-04-11 00:00:00<br>     <b>Supported Project or Campaign:</b> BKS: Bike Share: E Scooter Share <br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_7149ff15fd2bf310ccce7abf057f967c.setContent(html_7465a3c57fc8b49c91d8d15007f157e3);
+            
+        
+
+        marker_8353be5c76d125bce36ceccf0179c58c.bindPopup(popup_7149ff15fd2bf310ccce7abf057f967c)
+        ;
+
+        
+    
+    
+            var marker_a994d2e6be85df9d2edce0253f7d2788 = L.marker(
+                [40.87752, -73.8669],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_9267e76213331bfcdad678c019d94b19 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f51d9427e223b39cebe8f2411885048b = $(`<div id="html_f51d9427e223b39cebe8f2411885048b" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-04-11 00:00:00<br>     <b>Supported Project or Campaign:</b> BKS: E Scooter Share<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_9267e76213331bfcdad678c019d94b19.setContent(html_f51d9427e223b39cebe8f2411885048b);
+            
+        
+
+        marker_a994d2e6be85df9d2edce0253f7d2788.bindPopup(popup_9267e76213331bfcdad678c019d94b19)
+        ;
+
+        
+    
+    
+            var marker_4d81744dc200b0699a03f1fdbc4c277f = L.marker(
+                [40.89845, -73.8539],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_fc2c4161130aa8ab3282a80ccaa4dc0d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b470530357b11c50a38a01fd37e6d97 = $(`<div id="html_6b470530357b11c50a38a01fd37e6d97" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-03-31 00:00:00<br>     <b>Supported Project or Campaign:</b> RIS: White Plains Road<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX1203<br>     <b>NTAName:</b> Wakefield-Woodlawn     </div>`)[0];
+                popup_fc2c4161130aa8ab3282a80ccaa4dc0d.setContent(html_6b470530357b11c50a38a01fd37e6d97);
+            
+        
+
+        marker_4d81744dc200b0699a03f1fdbc4c277f.bindPopup(popup_fc2c4161130aa8ab3282a80ccaa4dc0d)
+        ;
+
+        
+    
+    
+            var marker_80c78eafc9dcc78bf725945eae5b2ea5 = L.marker(
+                [40.86241, -73.894],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_5d225fbfda8a0ffcfb1915d1df14e40d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_46559fb2027a995f6527181cb9b99adc = $(`<div id="html_46559fb2027a995f6527181cb9b99adc" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-07-17 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Fordham Rd Ped/Shopper Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0701<br>     <b>NTAName:</b> University Heights (North)-Fordham     </div>`)[0];
+                popup_5d225fbfda8a0ffcfb1915d1df14e40d.setContent(html_46559fb2027a995f6527181cb9b99adc);
+            
+        
+
+        marker_80c78eafc9dcc78bf725945eae5b2ea5.bindPopup(popup_5d225fbfda8a0ffcfb1915d1df14e40d)
+        ;
+
+        
+    
+    
+            var marker_1ea4a8dc8312a2b2a9f8ab12190d3790 = L.marker(
+                [40.89718, -73.8627],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_ee38cd9e89e79072c3b9db34fbe4b67e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b839bc71b7cb93799e992cefccedee36 = $(`<div id="html_b839bc71b7cb93799e992cefccedee36" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-07-17 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Fordham Rd Shopper Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX1203<br>     <b>NTAName:</b> Wakefield-Woodlawn     </div>`)[0];
+                popup_ee38cd9e89e79072c3b9db34fbe4b67e.setContent(html_b839bc71b7cb93799e992cefccedee36);
+            
+        
+
+        marker_1ea4a8dc8312a2b2a9f8ab12190d3790.bindPopup(popup_ee38cd9e89e79072c3b9db34fbe4b67e)
+        ;
+
+        
+    
+    
+            var marker_e54f2150ac9f0026009bcdaf4816a68b = L.marker(
+                [40.86305, -73.8945],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_8f28a7d02fe32390ef72f2e4ffdef4a8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_78f9ac2beb734f8392eb4d3bcd1ea16a = $(`<div id="html_78f9ac2beb734f8392eb4d3bcd1ea16a" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2018-10-26 00:00:00<br>     <b>Supported Project or Campaign:</b> BKS: Dockless Bike Share Pilot<br>     <b>Deployment Type:</b> Informational;<br>     <b>NTA2020:</b> BX0701<br>     <b>NTAName:</b> University Heights (North)-Fordham     </div>`)[0];
+                popup_8f28a7d02fe32390ef72f2e4ffdef4a8.setContent(html_78f9ac2beb734f8392eb4d3bcd1ea16a);
+            
+        
+
+        marker_e54f2150ac9f0026009bcdaf4816a68b.bindPopup(popup_8f28a7d02fe32390ef72f2e4ffdef4a8)
+        ;
+
+        
+    
+    
+            var marker_fd36f3c959a0f6f48bfe8ca7db14cfae = L.marker(
+                [40.86035, -73.8899],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_17f541b3b1816af783e484be7b0fab9a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f03656e8de1626ef78423b57a5ecb041 = $(`<div id="html_f03656e8de1626ef78423b57a5ecb041" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2018-09-05 00:00:00<br>     <b>Supported Project or Campaign:</b> BKS: Dockless Bike Share Pilot<br>     <b>Deployment Type:</b> Informational;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_17f541b3b1816af783e484be7b0fab9a.setContent(html_f03656e8de1626ef78423b57a5ecb041);
+            
+        
+
+        marker_fd36f3c959a0f6f48bfe8ca7db14cfae.bindPopup(popup_17f541b3b1816af783e484be7b0fab9a)
+        ;
+
+        
+    
+    
+            var marker_60143c4fcfd60c70ae8e650bd48f5872 = L.marker(
+                [40.90333, -73.8502],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_5b78b6649b12c56b52218643b4a17354 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a1f0e4c5bd9040921b83b16d60e7ff5d = $(`<div id="html_a1f0e4c5bd9040921b83b16d60e7ff5d" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-03-11 00:00:00<br>     <b>Supported Project or Campaign:</b> RIS: White Plains Road<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX1203<br>     <b>NTAName:</b> Wakefield-Woodlawn     </div>`)[0];
+                popup_5b78b6649b12c56b52218643b4a17354.setContent(html_a1f0e4c5bd9040921b83b16d60e7ff5d);
+            
+        
+
+        marker_60143c4fcfd60c70ae8e650bd48f5872.bindPopup(popup_5b78b6649b12c56b52218643b4a17354)
+        ;
+
+        
+    
+    
+            var marker_202af9b7f458415598d870afd11e0000 = L.marker(
+                [40.85027, -73.936],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_404743be4e8f6e7bff9c94575c892ad4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_96a4fc08eeff844d4db9c8a63d700774 = $(`<div id="html_96a4fc08eeff844d4db9c8a63d700774" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-11-15 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: 181st Street Busway<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_404743be4e8f6e7bff9c94575c892ad4.setContent(html_96a4fc08eeff844d4db9c8a63d700774);
+            
+        
+
+        marker_202af9b7f458415598d870afd11e0000.bindPopup(popup_404743be4e8f6e7bff9c94575c892ad4)
+        ;
+
+        
+    
+    
+            var marker_b04710bf07a5a39fe77367e7146fa9eb = L.marker(
+                [40.85956, -73.8874],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_113686fd79aa5e2859224679b655b2d7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90768ea58c084134e92f12ea30a0ec8e = $(`<div id="html_90768ea58c084134e92f12ea30a0ec8e" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-10-26 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Fordham Road Shopper Survey<br>     <b>Deployment Type:</b> Shopper Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_113686fd79aa5e2859224679b655b2d7.setContent(html_90768ea58c084134e92f12ea30a0ec8e);
+            
+        
+
+        marker_b04710bf07a5a39fe77367e7146fa9eb.bindPopup(popup_113686fd79aa5e2859224679b655b2d7)
+        ;
+
+        
+    
+    
+            var marker_dde4f27ae03f2daf840f3fd737ff0474 = L.marker(
+                [40.86305, -73.8945],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_3065d46f852ad36bc32892b0c9f8d0f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a76fc79d46b8067b6cc030dfd7c932dd = $(`<div id="html_a76fc79d46b8067b6cc030dfd7c932dd" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-01-28 00:00:00<br>     <b>Supported Project or Campaign:</b> BKS: Dockless Bike Share Pilot<br>     <b>Deployment Type:</b> Informational;<br>     <b>NTA2020:</b> BX0701<br>     <b>NTAName:</b> University Heights (North)-Fordham     </div>`)[0];
+                popup_3065d46f852ad36bc32892b0c9f8d0f8.setContent(html_a76fc79d46b8067b6cc030dfd7c932dd);
+            
+        
+
+        marker_dde4f27ae03f2daf840f3fd737ff0474.bindPopup(popup_3065d46f852ad36bc32892b0c9f8d0f8)
+        ;
+
+        
+    
+    
+            var marker_4ef78e300aeef735f482e6192b834936 = L.marker(
+                [40.88852, -73.8601],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_1de55cbd3972da97ad3edac17582bfa4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ec731526dc8d6196b4b0508e820124ed = $(`<div id="html_ec731526dc8d6196b4b0508e820124ed" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2022-03-07 00:00:00<br>     <b>Supported Project or Campaign:</b> RIS: White Plains Road<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_1de55cbd3972da97ad3edac17582bfa4.setContent(html_ec731526dc8d6196b4b0508e820124ed);
+            
+        
+
+        marker_4ef78e300aeef735f482e6192b834936.bindPopup(popup_1de55cbd3972da97ad3edac17582bfa4)
+        ;
+
+        
+    
+    
+            var marker_2048c23e488caa5719a7c4f9134d676d = L.marker(
+                [40.86566, -73.8947],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_12044b0833f03c92780c1716455718f3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e73bbccb29aedfdca08e3b39024695a = $(`<div id="html_4e73bbccb29aedfdca08e3b39024695a" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2017-04-05 00:00:00<br>     <b>Supported Project or Campaign:</b> PR: Grand Concourse: Merchant Surveys<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX0701<br>     <b>NTAName:</b> University Heights (North)-Fordham     </div>`)[0];
+                popup_12044b0833f03c92780c1716455718f3.setContent(html_4e73bbccb29aedfdca08e3b39024695a);
+            
+        
+
+        marker_2048c23e488caa5719a7c4f9134d676d.bindPopup(popup_12044b0833f03c92780c1716455718f3)
+        ;
+
+        
+    
+    
+            var marker_38905989c97eee31cf98798a763f32cf = L.marker(
+                [40.85377, -73.8884],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_5e48d87cc03b7e611d8bc88c79adb0a8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f704aea79f5bee8f866e1ce992cbb549 = $(`<div id="html_f704aea79f5bee8f866e1ce992cbb549" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2016-10-08 00:00:00<br>     <b>Supported Project or Campaign:</b> OTH: Trip Generation & Mode Choice Study Phase II<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_5e48d87cc03b7e611d8bc88c79adb0a8.setContent(html_f704aea79f5bee8f866e1ce992cbb549);
+            
+        
+
+        marker_38905989c97eee31cf98798a763f32cf.bindPopup(popup_5e48d87cc03b7e611d8bc88c79adb0a8)
+        ;
+
+        
+    
+    
+            var marker_2761664171670452c95b2f5d93b12e07 = L.marker(
+                [40.86176, -73.8913],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_17b084905da981b5ad7a687686264ce4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8d940b8948255653475098f60a8670a = $(`<div id="html_d8d940b8948255653475098f60a8670a" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2016-08-07 00:00:00<br>     <b>Supported Project or Campaign:</b> PR: Plaza User Surveys<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_17b084905da981b5ad7a687686264ce4.setContent(html_d8d940b8948255653475098f60a8670a);
+            
+        
+
+        marker_2761664171670452c95b2f5d93b12e07.bindPopup(popup_17b084905da981b5ad7a687686264ce4)
+        ;
+
+        
+    
+    
+            var marker_43937bce763eadc4dba01823e000b55d = L.marker(
+                [40.86035, -73.8899],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_79ea910a660138a3c6077e07fccf11b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_76335f5b6162ccff5d1491e21c7e62cd = $(`<div id="html_76335f5b6162ccff5d1491e21c7e62cd" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2016-11-14 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Citywide Transit Study<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_79ea910a660138a3c6077e07fccf11b2.setContent(html_76335f5b6162ccff5d1491e21c7e62cd);
+            
+        
+
+        marker_43937bce763eadc4dba01823e000b55d.bindPopup(popup_79ea910a660138a3c6077e07fccf11b2)
+        ;
+
+        
+    
+    
+            var marker_5e5dfa9912589e17c87736ae7ff027a8 = L.marker(
+                [40.8493, -73.9338],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_154807aff5cce99ba4f9178efa826599 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e63ff5247b7a3ea15f53b3b3de53d9ea = $(`<div id="html_e63ff5247b7a3ea15f53b3b3de53d9ea" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2016-11-13 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Citywide Transit Study<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_154807aff5cce99ba4f9178efa826599.setContent(html_e63ff5247b7a3ea15f53b3b3de53d9ea);
+            
+        
+
+        marker_5e5dfa9912589e17c87736ae7ff027a8.bindPopup(popup_154807aff5cce99ba4f9178efa826599)
+        ;
+
+        
+    
+    
+            var marker_4f12a2b98a2e4aeb33e3397bc12f2aee = L.marker(
+                [40.87752, -73.8669],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_2f41bfd5102a44eecfdb85204f90945c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f0cb8c4beac4f29d476e276eb2ad3fd = $(`<div id="html_4f0cb8c4beac4f29d476e276eb2ad3fd" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2017-04-07 00:00:00<br>     <b>Supported Project or Campaign:</b> TD: Citywide Transit Study<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_2f41bfd5102a44eecfdb85204f90945c.setContent(html_4f0cb8c4beac4f29d476e276eb2ad3fd);
+            
+        
+
+        marker_4f12a2b98a2e4aeb33e3397bc12f2aee.bindPopup(popup_2f41bfd5102a44eecfdb85204f90945c)
+        ;
+
+        
+    
+    
+            var marker_eadb4c1ce916cad52fa64e11d6851dea = L.marker(
+                [40.86035, -73.8899],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_27e7c95c1b08ff7065b38651c5adec18 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ab4e18756865d520c35ff7ae129e8c2a = $(`<div id="html_ab4e18756865d520c35ff7ae129e8c2a" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2021-05-05 00:00:00<br>     <b>Supported Project or Campaign:</b> BU: Environmental Justice Areas<br>     <b>Deployment Type:</b> Intercept Survey;<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_27e7c95c1b08ff7065b38651c5adec18.setContent(html_ab4e18756865d520c35ff7ae129e8c2a);
+            
+        
+
+        marker_eadb4c1ce916cad52fa64e11d6851dea.bindPopup(popup_27e7c95c1b08ff7065b38651c5adec18)
+        ;
+
+        
+    
+    
+            var marker_648240f18963a15da0eb8d6ec41b2c7b = L.marker(
+                [40.88429, -73.8624],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_a52a0688a0b68e5a128d506aa83a722b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_15779c1eb3c18f96f88ef7572980ef36 = $(`<div id="html_15779c1eb3c18f96f88ef7572980ef36" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2021-03-01 00:00:00<br>     <b>Supported Project or Campaign:</b> RIS: White Plains Road<br>     <b>Deployment Type:</b> Merchant Survey;<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_a52a0688a0b68e5a128d506aa83a722b.setContent(html_15779c1eb3c18f96f88ef7572980ef36);
+            
+        
+
+        marker_648240f18963a15da0eb8d6ec41b2c7b.bindPopup(popup_a52a0688a0b68e5a128d506aa83a722b)
+        ;
+
+        
+    
+    
+            var marker_93371b3ff208e109256d7b7d3d21c14a = L.marker(
+                [40.8657462, -73.92583259999999],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_7262c8aa8caef42a840997ba72e1443d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bafe1b0a78678b5e45e0245eb9de4315 = $(`<div id="html_bafe1b0a78678b5e45e0245eb9de4315" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2020-01-31 00:00:00<br>     <b>Supported Project or Campaign:</b> PHASE 3<br>     <b>Deployment Type:</b> Pedestrian Intercept Survey<br>     <b>NTA2020:</b> MN1203<br>     <b>NTAName:</b> Inwood     </div>`)[0];
+                popup_7262c8aa8caef42a840997ba72e1443d.setContent(html_bafe1b0a78678b5e45e0245eb9de4315);
+            
+        
+
+        marker_93371b3ff208e109256d7b7d3d21c14a.bindPopup(popup_7262c8aa8caef42a840997ba72e1443d)
+        ;
+
+        
+    
+    
+            var marker_c83278cb7bdf32569e3ba833d1dfe319 = L.marker(
+                [40.86012789999999, -73.92952149999999],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_19c4f3874ac496e69f8142f51d431e38 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a5d512637ae4632801774e70ac98be52 = $(`<div id="html_a5d512637ae4632801774e70ac98be52" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2020-01-27 00:00:00<br>     <b>Supported Project or Campaign:</b> PHASE 3<br>     <b>Deployment Type:</b> Pedestrian Intercept Survey<br>     <b>NTA2020:</b> MN1202<br>     <b>NTAName:</b> Washington Heights (North)     </div>`)[0];
+                popup_19c4f3874ac496e69f8142f51d431e38.setContent(html_a5d512637ae4632801774e70ac98be52);
+            
+        
+
+        marker_c83278cb7bdf32569e3ba833d1dfe319.bindPopup(popup_19c4f3874ac496e69f8142f51d431e38)
+        ;
+
+        
+    
+    
+            var marker_47c93df8891bc570049dcca4788c52b5 = L.marker(
+                [40.8742783, -73.91034479999999],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_aa796ae10e09e38e12ecf4144c952037 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e0a2692a7e8f6b5c25f0ddfde138bc62 = $(`<div id="html_e0a2692a7e8f6b5c25f0ddfde138bc62" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-08-14 00:00:00<br>     <b>Supported Project or Campaign:</b> BX7/20 Bus Stop<br>     <b>Deployment Type:</b> Pedestrian Intercept Survey<br>     <b>NTA2020:</b> BX0802<br>     <b>NTAName:</b> Kingsbridge-Marble Hill     </div>`)[0];
+                popup_aa796ae10e09e38e12ecf4144c952037.setContent(html_e0a2692a7e8f6b5c25f0ddfde138bc62);
+            
+        
+
+        marker_47c93df8891bc570049dcca4788c52b5.bindPopup(popup_aa796ae10e09e38e12ecf4144c952037)
+        ;
+
+        
+    
+    
+            var marker_addfa9fc90bc8cfaed797ffb2529c579 = L.marker(
+                [40.8624696, -73.8973414],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_de199b9242be9942276877aed9c91b39 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_751458b80aa3847ebd6da39c5cfaf704 = $(`<div id="html_751458b80aa3847ebd6da39c5cfaf704" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-07-13 00:00:00<br>     <b>Supported Project or Campaign:</b> Fordham Rd Ped/Shopper Survey<br>     <b>Deployment Type:</b> Pedestrian Intercept Survey<br>     <b>NTA2020:</b> BX0701<br>     <b>NTAName:</b> University Heights (North)-Fordham     </div>`)[0];
+                popup_de199b9242be9942276877aed9c91b39.setContent(html_751458b80aa3847ebd6da39c5cfaf704);
+            
+        
+
+        marker_addfa9fc90bc8cfaed797ffb2529c579.bindPopup(popup_de199b9242be9942276877aed9c91b39)
+        ;
+
+        
+    
+    
+            var marker_4d416bbc91a13c5abd125aa7ac99d3cb = L.marker(
+                [40.8595597, -73.887438],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_163f0a050edb8867efd57705adb7736f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ba69dccf944f571f781f1a72c37e361 = $(`<div id="html_8ba69dccf944f571f781f1a72c37e361" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-06-24 00:00:00<br>     <b>Supported Project or Campaign:</b> Fordham Rd Merchant Survey<br>     <b>Deployment Type:</b> nan<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_163f0a050edb8867efd57705adb7736f.setContent(html_8ba69dccf944f571f781f1a72c37e361);
+            
+        
+
+        marker_4d416bbc91a13c5abd125aa7ac99d3cb.bindPopup(popup_163f0a050edb8867efd57705adb7736f)
+        ;
+
+        
+    
+    
+            var marker_2543e9853bf6391a0141f88677aa4eeb = L.marker(
+                [40.8595597, -73.887438],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_ea717fbfd318086623ee14112b23b0fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_44b141fa51111f4bb7eeeeb16c252e21 = $(`<div id="html_44b141fa51111f4bb7eeeeb16c252e21" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-06-17 00:00:00<br>     <b>Supported Project or Campaign:</b> Fordham Rd Merchant Survey<br>     <b>Deployment Type:</b> nan<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_ea717fbfd318086623ee14112b23b0fc.setContent(html_44b141fa51111f4bb7eeeeb16c252e21);
+            
+        
+
+        marker_2543e9853bf6391a0141f88677aa4eeb.bindPopup(popup_ea717fbfd318086623ee14112b23b0fc)
+        ;
+
+        
+    
+    
+            var marker_e5351d8fdbf8bf08301fc33a86fb22f1 = L.marker(
+                [40.8521167, -73.8685928],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_7641821b1fdf2cfcd1effbdd1ef7ec8c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b5941331cd99bdf78475d6c15f7f8e65 = $(`<div id="html_b5941331cd99bdf78475d6c15f7f8e65" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-05-19 00:00:00<br>     <b>Supported Project or Campaign:</b> Bronx Park East<br>     <b>Deployment Type:</b> Pedestrian Intercept Survey<br>     <b>NTA2020:</b> BX2791<br>     <b>NTAName:</b> Bronx Park     </div>`)[0];
+                popup_7641821b1fdf2cfcd1effbdd1ef7ec8c.setContent(html_b5941331cd99bdf78475d6c15f7f8e65);
+            
+        
+
+        marker_e5351d8fdbf8bf08301fc33a86fb22f1.bindPopup(popup_7641821b1fdf2cfcd1effbdd1ef7ec8c)
+        ;
+
+        
+    
+    
+            var marker_2c0f54d24e95337fe48232af29c18d02 = L.marker(
+                [40.8521167, -73.8685928],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_26759aab573ceaf4c2f55a3b5d0dfb50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b17b63d093b16db8165940c2c5ea9704 = $(`<div id="html_b17b63d093b16db8165940c2c5ea9704" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2019-05-14 00:00:00<br>     <b>Supported Project or Campaign:</b> Bronx Park E <br>     <b>Deployment Type:</b> Pedestrian Intercept Survey<br>     <b>NTA2020:</b> BX2791<br>     <b>NTAName:</b> Bronx Park     </div>`)[0];
+                popup_26759aab573ceaf4c2f55a3b5d0dfb50.setContent(html_b17b63d093b16db8165940c2c5ea9704);
+            
+        
+
+        marker_2c0f54d24e95337fe48232af29c18d02.bindPopup(popup_26759aab573ceaf4c2f55a3b5d0dfb50)
+        ;
+
+        
+    
+    
+            var marker_bd96f21dbcf74e7ac07faced72b3ee88 = L.marker(
+                [40.8630503, -73.89439399999999],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_9aaeca9a22c9f5b1043d60f398576185 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73e1da4f4d4966f8760315e07dd90833 = $(`<div id="html_73e1da4f4d4966f8760315e07dd90833" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2018-10-26 00:00:00<br>     <b>Supported Project or Campaign:</b> Dockless Bike Share<br>     <b>Deployment Type:</b> nan<br>     <b>NTA2020:</b> BX0701<br>     <b>NTAName:</b> University Heights (North)-Fordham     </div>`)[0];
+                popup_9aaeca9a22c9f5b1043d60f398576185.setContent(html_73e1da4f4d4966f8760315e07dd90833);
+            
+        
+
+        marker_bd96f21dbcf74e7ac07faced72b3ee88.bindPopup(popup_9aaeca9a22c9f5b1043d60f398576185)
+        ;
+
+        
+    
+    
+            var marker_bc3055709a0d3de692ba224f7a05977b = L.marker(
+                [40.8603543, -73.8899237],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_3a1176f465a416669407c17ae805e03c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_24c396d7f92053c94689e753da1b99ce = $(`<div id="html_24c396d7f92053c94689e753da1b99ce" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2018-09-05 00:00:00<br>     <b>Supported Project or Campaign:</b> Dockless Bike Share Pilot<br>     <b>Deployment Type:</b> nan<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_3a1176f465a416669407c17ae805e03c.setContent(html_24c396d7f92053c94689e753da1b99ce);
+            
+        
+
+        marker_bc3055709a0d3de692ba224f7a05977b.bindPopup(popup_3a1176f465a416669407c17ae805e03c)
+        ;
+
+        
+    
+    
+            var marker_345cce9f43df01567c85e33cf6d625eb = L.marker(
+                [40.8885227, -73.8600871],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_6f44f6de5beb4c993e9e6a91191f3ddb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_703dedeab8758e375c91a12943dc1f3a = $(`<div id="html_703dedeab8758e375c91a12943dc1f3a" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2021-02-26 00:00:00<br>     <b>Supported Project or Campaign:</b> White Plains Rd Merchant Survey<br>     <b>Deployment Type:</b> Merchant Survey<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_6f44f6de5beb4c993e9e6a91191f3ddb.setContent(html_703dedeab8758e375c91a12943dc1f3a);
+            
+        
+
+        marker_345cce9f43df01567c85e33cf6d625eb.bindPopup(popup_6f44f6de5beb4c993e9e6a91191f3ddb)
+        ;
+
+        
+    
+    
+            var marker_24fd7b8a79320b962eff555900b42cf6 = L.marker(
+                [40.8647402, -73.8874991],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_e8f66f52c239eef5ae9d2b7cc3f0c4fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_70dbeef465b5d75a9677e9ebcd26d136 = $(`<div id="html_70dbeef465b5d75a9677e9ebcd26d136" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2021-03-25 00:00:00<br>     <b>Supported Project or Campaign:</b> E Gun Hill Rd Merchant Survey<br>     <b>Deployment Type:</b> nan<br>     <b>NTA2020:</b> BX0603<br>     <b>NTAName:</b> Belmont     </div>`)[0];
+                popup_e8f66f52c239eef5ae9d2b7cc3f0c4fd.setContent(html_70dbeef465b5d75a9677e9ebcd26d136);
+            
+        
+
+        marker_24fd7b8a79320b962eff555900b42cf6.bindPopup(popup_e8f66f52c239eef5ae9d2b7cc3f0c4fd)
+        ;
+
+        
+    
+    
+            var marker_66c453aa0fcfa63d2808953bf690b056 = L.marker(
+                [40.873509, -73.8542628],
+                {
+}
+            ).addTo(map_4bff8ed763dcdc3aec77687b314fcc17);
+        
+    
+        var popup_e3554bbfb7fcd29f4824c4b56180f501 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f3109bdd3e9cd3869d4093decb46aea = $(`<div id="html_6f3109bdd3e9cd3869d4093decb46aea" style="width: 100.0%; height: 100.0%;">     <b>Date of Deployment:</b> 2021-03-29 00:00:00<br>     <b>Supported Project or Campaign:</b> Gun Hill Rd Merchant Surveys w/BID<br>     <b>Deployment Type:</b> Merchant Survey<br>     <b>NTA2020:</b> BX1201<br>     <b>NTAName:</b> Williamsbridge-Olinville     </div>`)[0];
+                popup_e3554bbfb7fcd29f4824c4b56180f501.setContent(html_6f3109bdd3e9cd3869d4093decb46aea);
+            
+        
+
+        marker_66c453aa0fcfa63d2808953bf690b056.bindPopup(popup_e3554bbfb7fcd29f4824c4b56180f501)
+        ;
+
+        
+    
+</script>
+</html>
